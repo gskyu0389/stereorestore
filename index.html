@@ -1,36 +1,71 @@
 <!DOCTYPE html>
-<html lang="ko" class="theme-dark">
-
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover"/>
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=3.0" name="viewport">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/expectation-cloud/restoration.expectation.cloud/assets/css/app.css">
-  <title>Verify</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>퀵코인 바로가기</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #5865F2;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      color: white;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      z-index: 2;
+    }
+
+    .button {
+      background-color: white;
+      color: #5865F2;
+      text-decoration: none;
+      padding: 15px 30px;
+      font-weight: bold;
+      border-radius: 10px;
+      font-size: 1.1rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      z-index: 2;
+    }
+
+    .discord-icon {
+      position: absolute;
+      width: 40px;
+      opacity: 0.1;
+    }
+
+    /* 랜덤 위치의 디스코드 로고 배경 여러 개 */
+    .icon1 { top: 10%; left: 10%; }
+    .icon2 { top: 20%; right: 15%; }
+    .icon3 { bottom: 25%; left: 5%; }
+    .icon4 { bottom: 15%; right: 10%; }
+    .icon5 { top: 50%; left: 45%; }
+
+    /* 아이콘 이미지: Discord 로고 링크 */
+    .discord-icon img {
+      width: 100%;
+    }
+  </style>
 </head>
-
 <body>
-  <div id="app-mount" class="appMount-2yBXZl">
-    <div class="appAsidePanelWrapper-ev4hlp">
-      <div class="notAppAsidePanel-3yzkgB">
-        <div class="app-3xd6d0">
-          <div class="theme-dark wave-prk3iX wrapper-25sY58 scrollbarGhost-dCZKgZ scrollbar-3vVt8d">
-            <div class="fallbackImage-kwjEnv"></div>
-            <div class="leftSplit-hm3715 nonEmbeddedLeftSplit-1DjcEq">
-              <div class="oauth2Wrapper-p_8bbd">
-                <div class="wrapper-3xpz8m">
+  <!-- 디스코드 로고 배경 아이콘 -->
+  <div class="discord-icon icon1"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png"></div>
+  <div class="discord-icon icon2"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png"></div>
+  <div class="discord-icon icon3"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png"></div>
+  <div class="discord-icon icon4"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png"></div>
+  <div class="discord-icon icon5"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png"></div>
 
-                  <div class="header-1Qp_Ej headerSuccess-3n55Ht"></div>
-                  <div class="defaultColor-1EVLSt text-md-normal-2rFCH3 text-1yBazx">인증됨</div>
-                  <div class="text-xs-normal-3O7EaX" style="color: var(--text-muted);">이제 이 창 혹은 탭을 닫아도 됩니다.</div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <!-- 중앙 텍스트 + 버튼 -->
+  <h1>퀵코인 바로가기</h1>
+  <a class="button" href="https://discord.gg/서버코드">서버 바로가기</a>
 </body>
 </html>
